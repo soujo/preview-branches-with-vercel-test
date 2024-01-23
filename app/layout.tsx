@@ -16,7 +16,10 @@ type RouteLayoutProps = {
 export default function RootLayout({ children }: RouteLayoutProps) {
   return (
     <html lang="en" className={inter.className}>
-      <body>{children}</body>
+      <body>
+        <div>Soujanya Hazra</div>
+        {children}
+      </body>
     </html>
   );
 }
