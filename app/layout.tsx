@@ -17,7 +17,7 @@ export default function RootLayout({ children }: RouteLayoutProps) {
   return (
     <html lang="en" className={inter.className}>
       <body>
-        <div>Soujanya Hazra</div>
+        <p>Soujanya Hazra</p>
         {children}
       </body>
     </html>
